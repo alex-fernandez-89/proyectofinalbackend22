@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #e6c56b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eeab8a, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #bdab7a, #cfb677); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    /*   Imagen Louvre de https://freepik.es   */
+    background-image: url(../img/img/louvre-museum-at-sunset.jpg);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.error-login{
+    border-radius: 30px;
+    width: 50%;
+    height: 230px;
+    margin: 15%;
+    background-color: #0f202770;
+    text-align: center;
+    padding: 2%;
+    border: 2px solid white;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 7px 20px 20px rgba(29, 29, 51, 0.603);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 2.5em;
+
+}
+
+h2{
+    font-size: 1.5em;
+    color: #82c5e2;
+    margin-bottom: 5%;
+}
+
+a{
+    
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #ffffff;
+
+}
+
+
+

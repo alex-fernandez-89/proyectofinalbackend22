@@ -1,0 +1,26 @@
+
+body{
+    padding: 5%;
+}
+
+h1, p{
+    color: white;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 5%;
+}
+form input{
+    width: 50%;
+    margin-top: 1%;
+}
+
+form button{
+    width: 50%;
+    margin-top: 3%;
+}
